@@ -26,7 +26,7 @@
 							@endphp
 							<ol>
 								@foreach($list_gejala as $gejala)
-									<li>{{$gejala->gejala->kode}} | {{$gejala->gejala->nama}}</li>
+									<li>{{$gejala->kode}} | {{$gejala->nama}}</li>
 								@endforeach
 							</ol>
 						@endif
